@@ -1,0 +1,84 @@
+
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+app-search {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 10px;
+    margin: 10px 0;
+}
+
+.main-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main-cards{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+}
+
+app-card {
+    display: flex;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    box-shadow: 0 0 0.5rem 0 rgba(0,0,0,.1);
+}
+
+.aside {
+    width: 25%;
+    margin-left: 10px;
+    display: flex;
+    box-shadow: 0 0 0.5rem 0 rgba(0,0,0,.1);
+    height: 500px;
+}
+
+
+@media screen and (max-width: 768px){
+    .aside-filter {
+        position: absolute;
+        left:  -100vw;
+        top: 0;
+        transition: .3s;
+    }
+    .filters-close {
+        display: flex;
+    }
+    .aside-active {   
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 99;
+        height: 100vh;        
+        margin: 0;
+        transition: .2s;
+        width: 250px;
+    }
+    .main-cards {
+        width: 100%;
+    }
+    .container{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .aside {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 576px){
+   .container{
+       width: 100%;
+   }
+}

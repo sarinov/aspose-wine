@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<Wines>    
+   <wine>       
+      <name>Joh. Jos. Prum Wehlener Sonnenuhr Riesling Trockenbeerenauslese</name>    
+      <img>https://www.wine-searcher.com/images/labels/16/79/10601679t.jpg</img>    
+      <price>43.13</price>    
+   </wine>    
+   <wine>    
+      <name>2016 Tenuta Roveglia Vigne di Catullo Lugana Riserva</name>    
+      <img>https://www.wine-searcher.com/images/labels/04/80/10290480t.jpg</img>    
+      <price>23.98</price>    
+   </wine>    
+   <wine>    
+      <name>2016 Castello di Gabbiano Cavaliere d'Oro Chianti Classico Riserva DOCG</name>    
+      <img>https://www.wine-searcher.com/images/labels/32/29/11023229.jpg?width=180&height=196&fit=bounds&canvas=180,196</img>    
+      <price>26.32</price>    
+   </wine>    
+   <wine>    
+     <name>Marques de Casa Concha Cabernet Sauvignon</name>    
+      <img>https://www.wine-searcher.com/images/labels/73/67/10287367t.jpg</img>    
+      <price>87.3</price>    
+   </wine>    
+   <wine>    
+     <name>Marques de Casa Concha Chardonnay</name>    
+      <img>https://www.wine-searcher.com/images/labels/92/48/10519248t.jpg</img>    
+      <price>23.5</price>    
+   </wine>    
+</Wines>    

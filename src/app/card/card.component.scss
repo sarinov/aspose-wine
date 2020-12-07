@@ -1,0 +1,118 @@
+.card {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    height: fit-content;
+}
+
+.card-img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px 0px;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.card-content{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-content: space-around;
+}
+
+.card-title{
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 125%;
+    &:hover {
+        box-shadow: rgba(85,85,85,.4) 0 1px 2px 1px;
+    }
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.card-price{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    font-weight: bolder;
+    p{
+        font-size: .8rem;    
+        color: #4e4e4e;
+    }
+}
+
+
+.card-button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    button {
+        width: 70%;
+        background-color: #007bff;
+        border-color: #007bff;
+        color: #fff;
+        font-weight: 400;
+        font-size: 1rem;
+        border-radius: .25rem;
+        line-height: 1.5;
+        padding: .375rem .75rem;
+        cursor: pointer;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    };
+}
+
+@media screen and (max-width: 956px) {
+    .card-button {
+        margin: 10px 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 449px) {
+    .card-img {
+        width: 35%;
+        img {
+            height: 70%;
+        }
+    }
+    .card-content {
+        width: 65%;
+        button {
+            width: 100%;
+        }
+    }
+    .card-title {
+        font-size: .9em;
+    }
+    .card-price {
+        width: 100%;
+        text-align: right;
+    }
+    .card-footer {
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+

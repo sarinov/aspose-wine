@@ -1,0 +1,14 @@
+<app-header [openAside]="openAside"></app-header>
+<div class="container">
+  <div class="main">
+      <app-search [keyUp]="keyUp" [handleSearch]="handleSearch"></app-search>
+      <div class="main-content">
+        <div class="main-cards">
+          <app-card *ngFor="let wine of wines" [wine]="wine"></app-card>
+        </div>
+      <app-aside [openAside]="openAside" class="aside" [class]="isOpened ? 'aside-active' : 'aside-filter'"></app-aside>
+      </div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
