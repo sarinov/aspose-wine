@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     background-color: #fff;
-    height: fit-content;
+
 }
 
 .card-img{
@@ -14,8 +14,9 @@
     padding: 20px 0px;
     img {
         max-width: 100%;
-        height: auto;
+        // height: auto;
     }
+
 }
 
 .card-content{
@@ -25,6 +26,11 @@
     margin-right: 20px;
     margin-left: 20px;
     align-content: space-around;
+}
+
+.cards-additional-content {
+    // flex-grow: 1;
+
 }
 
 .card-title{
@@ -38,12 +44,14 @@
     &:hover {
         box-shadow: rgba(85,85,85,.4) 0 1px 2px 1px;
     }
+
 }
 .card-footer{
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 20px 0;
+
 }
 
 .card-price{
@@ -92,7 +100,7 @@
     .card-img {
         width: 35%;
         img {
-            height: 70%;
+            // height: 70%;
         }
     }
     .card-content {

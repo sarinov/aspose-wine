@@ -22,10 +22,11 @@ app-search {
 
 .main-cards{
     width: 75%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: fit-content;
+    display: grid;    
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;    
 }
 
 app-card {
