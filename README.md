@@ -1,6 +1,11 @@
-# AsposeWine
+# GetWine
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
+
+## Descripton
+
+This web page helps users to find a wine. After the user has defined the search criteria and clicked "Find", the site will display a set of cards with found wines.
+An each card contains name, image, price of wine and button "Enter shop". All information about wine is saved in XML file. Furthemore, the web page is dynamically resizable. 
 
 ## Development server
 
